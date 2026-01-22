@@ -15,6 +15,8 @@ const Navbar = () => {
             }else{
                 setScrolled(false);
             };
+            /*Tells the browser "everytime the user scrolls,run handlescroll*/
+           window.addEventListener("scroll", handleScroll); 
             
         }
     })
