@@ -20,5 +20,7 @@ const Navbar = () => {
            /*Removes the Event listener when the component unmounts*/
            return() => window.removeEventListener("scroll", handleScroll); 
         }
+    },[]); //Empty dependency array meaning this effect runs only once when the component mounts.
+    
     })
 }
