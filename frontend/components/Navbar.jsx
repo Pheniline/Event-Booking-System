@@ -21,6 +21,17 @@ const Navbar = () => {
            return() => window.removeEventListener("scroll", handleScroll); 
         }
     },[]); //Empty dependency array meaning this effect runs only once when the component mounts.
-    
+     return(
+        /*If scrolled is true the class becomes navbar navbar-scrolled  and if false 
+        it becomes navbar*/
+       <nav className ={'navbar $ {scrolled ? "navbar-scrolled" : ""}'}>
+       /* Logo brand */
+       <div className= "logo">SolFest Africa</div>
+       /* Navigation links */
+       <ul className = "nav-links">
+        {}
+       </ul>
+       </nav>
+    )
     })
 }
