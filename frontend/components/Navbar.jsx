@@ -29,9 +29,15 @@ const Navbar = () => {
        <div className= "logo">SolFest Africa</div>
        /* Navigation links */
        <ul className = "nav-links">
-        {}
+        /* Loops each item in navLinks array and creates a list item for each link*/
+        {navLinks.map((link)=> (
+            /*Key helps react to update the list effeciently*/
+            <li key ={link}>
+                <a href = {'# ${link.toLowercase ()}'}>{link}</a>
+            </li>
+        ))}
        </ul>
        </nav>
     )
-    })
+    }
 }
