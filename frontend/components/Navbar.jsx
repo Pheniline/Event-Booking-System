@@ -40,4 +40,5 @@ const Navbar = () => {
        </nav>
     )
     }
-}
+    //This makes Navbar available so other files can import it.
+    export default Navbar;
