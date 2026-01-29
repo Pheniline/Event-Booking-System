@@ -8,7 +8,18 @@ const About = () => {
     <section id="about" className="about">
       /*Heading for the about section*/
       <h2>About</h2>
+      <p>
+        Welcome to SolFest Africa, SolFest is East Africa's premier music
+        festival, dedicated to celebrating and promoting African musical talent
+        on a global stage. Founded on the principles of discipline, order,
+        passion, and excellence, SolFest has become a significant cultural event
+        in East Africa, attracting thousands of attendees each year.
+      </p>
+      <p>
+        This years Solfest will feature a diverse line up of artist {"
+        <span className="artists">Sauti sol,Nyashiski,Toxic Lyrikali,Nikita Keiring,Lil'Maina and many more"</span>}}
+      </p>
     </section>
   );
 };
-export default About; /*Exports the component so that other files can import it*/
+export default About; /*Exports the about so that other files can import it*/
