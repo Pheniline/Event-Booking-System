@@ -16,8 +16,9 @@ const About = () => {
         in East Africa, attracting thousands of attendees each year.
       </p>
       <p>
-        This years Solfest will feature a diverse line up of artist {"
+        This years Solfest will feature a diverse line up of artist 
         <span className="artists">Sauti sol,Nyashiski,Toxic Lyrikali,Nikita Keiring,Lil'Maina and many more"</span>}
+        {""}
         Come and experience an unforgettable celebration of music,
         culture,and community at SolFest Africa!
         
