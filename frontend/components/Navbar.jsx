@@ -1,4 +1,4 @@
-import 'react'from React;
+import 'React' from React;
 
 const Navbar = () => {
     //Navbar links array: storing them in an array so that we can loop later.

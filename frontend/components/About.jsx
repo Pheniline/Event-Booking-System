@@ -11,3 +11,4 @@ const About = () => {
     </section>
   );
 };
+export default About; /*Exports the component so that other files can import it*/
